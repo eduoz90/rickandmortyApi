@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background: #202020;
+  color: white;
+}
+
+.titulo{
+  margin: 15px;
+  text-align: center;
+  font-family: monospace;
+ 
+}
+
+
+.contenido{
+  margin: 35px;
+ 
+}
+.container{
+
+ text-align: center;
+}
+
+.container {
+  border-style: solid;
+  border-color: white;
+  width: 15em;
+  height: auto;
+  padding: 10px;
+}
+.contenido .container img{
+  width: 10em;
+}
+
+ .container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.contenido{
+  color: burlywood;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+
+
+
+
+ .btn{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.btn .btn1{
+ padding: 10px;
+ background: white;
+ color: #202020;
+ border-radius: 10px;
+}
+
+.btn1:hover{
+  background: darkgray;
+  color: black;
+  cursor: pointer;
+}
+
+.btn .btn2{
+  padding: 10px;
+  background: white;
+  color: #202020;
+  border-radius: 10px;
+ }
+ 
+ .btn2:hover{
+   background: darkgray;
+   color: black;
+   cursor: pointer;
+ }
+
+ h1:hover{
+  color: crimson;
+ }
